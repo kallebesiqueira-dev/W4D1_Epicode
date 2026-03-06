@@ -1,44 +1,44 @@
 # Netflix Mockup (W4D1)
 
-Projeto front-end inspirado na interface da Netflix, construido com HTML, CSS e JavaScript puro.
+A front-end project inspired by the Netflix interface, built with HTML, CSS, and vanilla JavaScript.
 
-## Estrutura do projeto
+## Project Structure
 
-- `index.html`: estrutura principal da pagina.
-- `style.css`: estilos visuais, responsividade e animacoes.
-- `script.js`: logica dos carrosseis e efeito de revelacao das secoes.
-- `assets/imgs/movies/`: imagens dos cards de filmes.
+- `index.html`: main page structure.
+- `style.css`: visual styles, responsiveness, and animations.
+- `script.js`: carousel logic and section reveal effects.
+- `assets/imgs/movies/`: movie card images.
 
-## O que foi feito
+## What Was Implemented
 
-- Layout principal com barra de navegacao, secoes de filmes e rodape.
-- Carrosseis de filmes com navegacao por botoes (proximo/anterior).
-- Efeito de entrada suave das linhas de filmes ao rolar a pagina.
-- Adaptacao responsiva para desktop, tablet e mobile.
-- Rodape com links e icones sociais.
+- Main layout with navigation bar, movie sections, and footer.
+- Movie carousels with button-based navigation (next/previous).
+- Smooth reveal animation for movie rows on scroll.
+- Responsive adaptation for desktop, tablet, and mobile.
+- Footer with links and social icons.
 
-## Ajuste aplicado
+## Applied Adjustment
 
-Foi implementada a clicabilidade dos icones sociais no rodape:
+Social icons in the footer were made clickable:
 
 - Facebook
 - Instagram
 - X (Twitter)
 - YouTube
 
-Cada icone agora esta dentro de uma tag `<a>` com:
+Each icon is now wrapped in an `<a>` tag with:
 
-- `href` para o perfil oficial da Netflix
-- `target="_blank"` para abrir em nova aba
-- `rel="noopener noreferrer"` por seguranca
-- `aria-label` para acessibilidade
+- `href` pointing to Netflix's official profile
+- `target="_blank"` to open in a new tab
+- `rel="noopener noreferrer"` for security
+- `aria-label` for accessibility
 
-## Como executar
+## How To Run
 
-1. Abra a pasta do projeto no VS Code.
-2. Abra o arquivo `index.html` no navegador (ou use a extensao Live Server).
+1. Open the project folder in VS Code.
+2. Open `index.html` in your browser (or use the Live Server extension).
 
-## Tecnologias
+## Technologies
 
 - HTML5
 - CSS3
